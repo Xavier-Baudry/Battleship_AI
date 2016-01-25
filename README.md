@@ -13,6 +13,7 @@ To create your own AI simply follow these simple guidelines:
 
   1) Create your own class derived from the player class 
   2) Over write these two base methods (both in Battleship_Core.h)
+    
     a. set_boat_at
         This method is for your AI to place a boat initialy.
         
@@ -44,6 +45,7 @@ To create your own AI simply follow these simple guidelines:
           'X' (capital X) - missed shot
           
   3) (OPTIONAL) Overwrite any of these functions for added functionality
+  
     a.  receive_status_code
           This method gives feedback on what happened after your AI took a shot.
           
